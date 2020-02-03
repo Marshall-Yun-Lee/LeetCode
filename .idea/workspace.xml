@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/SoftAssert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/ReverseInteger/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/ReverseInteger/ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/SoftAssertion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solutions/Easy/ReverseInteger/ReverseInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solutions/Easy/ReverseInteger/ReverseInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Logger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/SoftAssertion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UnitTest">
+  <component name="RunManager" selected="JUnit.PalindromeNumberTest">
     <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solutions.Easy.ReverseInteger.ReverseInteger" />
       <module name="marshall" />
@@ -73,6 +63,40 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marshall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTests.Easy.PalindromeNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTests.Easy.PalindromeNumber" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.PalindromeNumber.PalindromeNumberTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marshall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTests.Easy.ReverseIntegerTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTests.Easy.ReverseIntegerTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.ReverseIntegerTest.ReverseIntegerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,19 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="marshall" />
-      <option name="PACKAGE_NAME" value="UnitTests.Easy.ReverseIntegerTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.ReverseIntegerTest.ReverseIntegerTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <module name="LeetCode" />
+      <module name="marshall" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
@@ -111,11 +124,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReverseInteger" />
-      <item itemvalue="JUnit.UnitTest" />
+      <item itemvalue="JUnit.PalindromeNumberTest" />
+      <item itemvalue="JUnit.ReverseIntegerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UnitTest" />
+        <item itemvalue="JUnit.PalindromeNumberTest" />
+        <item itemvalue="JUnit.ReverseIntegerTest" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="JUnit.UnitTest" />
       </list>
