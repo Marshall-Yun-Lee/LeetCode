@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/PalindromeNumber/Description" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/PalindromeNumber/Description" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/PalindromeNumber/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/PalindromeNumber/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Assert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/PalindromeNumber/PalindromeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/PalindromeNumber/PalindromeNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Solutions/Easy/PalindromeNumber/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solutions/Easy/PalindromeNumber/PalindromeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/SoftAssert$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/SoftAssert$assertType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/SoftAssert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/PalindromeNumber/PalindromeNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/PalindromeNumber/PalindromeNumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

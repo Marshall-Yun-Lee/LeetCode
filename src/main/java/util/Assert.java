@@ -1,9 +1,10 @@
 package util;
 import org.junit.jupiter.api.Assertions;
 
-public class SoftAssert extends Assertions {
+public class Assert extends Assertions {
     private static Logger log = Logger.getInstance();
 
+    // ===============Helpers=================
     private enum assertType {
         TRUE,
         FALSE,

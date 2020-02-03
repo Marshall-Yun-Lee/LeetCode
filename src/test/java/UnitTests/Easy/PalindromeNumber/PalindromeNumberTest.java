@@ -3,7 +3,7 @@ package UnitTests.Easy.PalindromeNumber;
 import Solutions.Easy.PalindromeNumber.PalindromeNumber;
 import org.junit.jupiter.api.Test;
 import util.Logger;
-import util.SoftAssert;
+import util.Assert;
 
 class PalindromeNumberTest {
     private Logger log = Logger.getInstance();
@@ -12,24 +12,26 @@ class PalindromeNumberTest {
     @Test
     void testPalindrome() {
         // True
-        SoftAssert.assertTrue(palindrome.isPalindrome(121));
-        SoftAssert.assertTrue(palindrome.isPalindrome(11));
-        SoftAssert.assertTrue(palindrome.isPalindrome(1111));
-        SoftAssert.assertTrue(palindrome.isPalindrome(11111));
-        SoftAssert.assertTrue(palindrome.isPalindrome(12321));
-        SoftAssert.assertTrue(palindrome.isPalindrome(123454321));
-        SoftAssert.assertTrue(palindrome.isPalindrome(1597951));
+        Assert.assertTrue(palindrome.isPalindrome(121));
+        Assert.assertTrue(palindrome.isPalindrome(11));
+        Assert.assertTrue(palindrome.isPalindrome(1111));
+        Assert.assertTrue(palindrome.isPalindrome(11111));
+        Assert.assertTrue(palindrome.isPalindrome(123321));
+        Assert.assertTrue(palindrome.isPalindrome(12121));
+        Assert.assertTrue(palindrome.isPalindrome(12321));
+        Assert.assertTrue(palindrome.isPalindrome(123454321));
+        Assert.assertTrue(palindrome.isPalindrome(1597951));
 
         // False
-        SoftAssert.assertFalse(palindrome.isPalindrome(1212));
-        SoftAssert.assertFalse(palindrome.isPalindrome(14846));
-        SoftAssert.assertFalse(palindrome.isPalindrome(14864));
+        Assert.assertFalse(palindrome.isPalindrome(1212));
+        Assert.assertFalse(palindrome.isPalindrome(14846));
+        Assert.assertFalse(palindrome.isPalindrome(14864));
     }
 
     @Test
     void testNegative() {
-        SoftAssert.assertFalse(palindrome.isPalindrome(-121));
-        SoftAssert.assertFalse(palindrome.isPalindrome(-3518));
+        Assert.assertFalse(palindrome.isPalindrome(-121));
+        Assert.assertFalse(palindrome.isPalindrome(-3518));
     }
 
 }
