@@ -1,4 +1,4 @@
-import Solutions.Easy.ReverseInteger;
+import Solutions.Easy.ReverseInteger.ReverseInteger;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

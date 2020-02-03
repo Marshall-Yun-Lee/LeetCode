@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="" />
+    <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/ReverseInteger/ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XH03T0b5hMXmmqCwltKLNTLNkG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
