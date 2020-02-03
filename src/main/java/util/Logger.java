@@ -13,14 +13,22 @@ public class Logger {
     }
 
     public void success(String msg) {
-        System.out.println("SUCCESS:::" + msg);
+        System.out.println("SUCCESS::: " + msg);
     }
 
     public void fail(String msg) {
-        System.out.println("FAIL:::" + msg);
+        System.out.println("FAIL::: " + msg);
     }
 
     public void debug(String msg) {
-        System.out.println("debug:" + msg);
+        System.out.println("debug: " + msg);
+    }
+
+    public void info(String msg) {
+        System.out.println("INFO: " + msg);
+    }
+
+    public void plain(String msg) {
+        System.out.println(msg);
     }
 }
