@@ -3,19 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/PalindromeNumber/Description" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/PalindromeNumber/Description" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/PalindromeNumber/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/PalindromeNumber/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/PalindromeNumber/PalindromeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/PalindromeNumber/PalindromeNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solutions/Easy/PalindromeNumber/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solutions/Easy/PalindromeNumber/PalindromeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Logger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/SoftAssert$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/SoftAssert$assertType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/SoftAssert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/PalindromeNumber/PalindromeNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/PalindromeNumber/PalindromeNumberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/RomanToInteger/Description" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/RomanToInteger/Description" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/RomanToInteger/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/RomanToInteger/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/PalindromeNumber/PalindromeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/PalindromeNumberTest/PalindromeNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/RomanToInteger/RomanToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/RomanToIntegerTest/RomanToIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Solutions/Easy/RomanToInteger/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solutions/Easy/RomanToInteger/RomanToInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/PalindromeNumber/PalindromeNumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/RomanToInteger/RomanToIntegerTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeNumberTest">
+  <component name="RunManager" selected="JUnit.RomanToIntegerTest">
     <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solutions.Easy.ReverseInteger.ReverseInteger" />
       <module name="marshall" />
@@ -84,12 +78,12 @@
       <module name="marshall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTests.Easy.PalindromeNumber.*" />
+          <option name="PATTERN" value="UnitTests.Easy.PalindromeNumberTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTests.Easy.PalindromeNumber" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.PalindromeNumber.PalindromeNumberTest" />
+      <option name="PACKAGE_NAME" value="UnitTests.Easy.PalindromeNumberTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.PalindromeNumberTest.PalindromeNumberTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -107,6 +101,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="UnitTests.Easy.ReverseIntegerTest" />
       <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.ReverseIntegerTest.ReverseIntegerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marshall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTests.Easy.RomanToIntegerTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTests.Easy.RomanToIntegerTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.RomanToIntegerTest.RomanToIntegerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -139,9 +150,11 @@
       <item itemvalue="Application.ReverseInteger" />
       <item itemvalue="JUnit.PalindromeNumberTest" />
       <item itemvalue="JUnit.ReverseIntegerTest" />
+      <item itemvalue="JUnit.RomanToIntegerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanToIntegerTest" />
         <item itemvalue="JUnit.PalindromeNumberTest" />
         <item itemvalue="JUnit.ReverseIntegerTest" />
         <item itemvalue="Application.ReverseInteger" />
@@ -179,5 +192,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeetCode$UnitTest__1_.ic" NAME="UnitTest (1) Coverage Results" MODIFIED="1580704435438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/LeetCode$PalindromeNumberTest.ic" NAME="PalindromeNumberTest Coverage Results" MODIFIED="1580718861845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>UnitTests.Easy.PalindromeNumber.*</FILTER>
+    </SUITE>
   </component>
 </project>
