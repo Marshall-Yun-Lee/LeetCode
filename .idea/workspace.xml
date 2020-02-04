@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/PalindromeNumber/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/PalindromeNumber/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/RomanToInteger/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/RomanToInteger/RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/RomanToIntegerTest/RomanToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/RomanToIntegerTest/RomanToIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solutions/Easy/PalindromeNumber/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solutions/Easy/PalindromeNumber/PalindromeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solutions/Easy/ReverseInteger/ReverseInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solutions/Easy/ReverseInteger/ReverseInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solutions/Easy/RomanToInteger/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solutions/Easy/RomanToInteger/RomanToInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Assert$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Assert$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Assert$assertType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Assert$assertType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Assert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Assert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Logger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/PalindromeNumberTest/PalindromeNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/PalindromeNumberTest/PalindromeNumberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/RomanToIntegerTest/RomanToIntegerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/RomanToIntegerTest/RomanToIntegerTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
