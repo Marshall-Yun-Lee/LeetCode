@@ -9,10 +9,10 @@ public class PalindromeNumber {
         // no negative
         // palindrome # never ends with 0
         // I guess 0-9 are automatic palindrome???
-        if (input < 0 || input % 10 == 0) {
-            return false;
-        } else if (input < 10) {
+        if (input < 10 && input >= 0) {
             return true;
+        } else if (input < 0 || input % 10 == 0) {
+            return false;
         }
         // A B C B A        // A B C C B A
         // Stack1: A B      // Stack1: A B C

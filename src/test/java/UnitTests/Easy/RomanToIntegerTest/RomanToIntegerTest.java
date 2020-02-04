@@ -20,4 +20,18 @@ public class RomanToIntegerTest {
         Assert.assertEquals(58, rti.romanToInt("LVIII"));
         Assert.assertEquals(1994, rti.romanToInt("MCMXCIV"));
     }
+
+    @Test
+    void testRomanToIntegerSimple() {
+        Assert.assertEquals(0, rti.romanToIntSimple(""));
+        Assert.assertEquals(1, rti.romanToIntSimple("I"));
+        Assert.assertEquals(2, rti.romanToIntSimple("II"));
+        Assert.assertEquals(3, rti.romanToIntSimple("III"));
+        Assert.assertEquals(4, rti.romanToIntSimple("IV"));
+        Assert.assertEquals(5, rti.romanToIntSimple("V"));
+        Assert.assertEquals(6, rti.romanToIntSimple("VI"));
+        Assert.assertEquals(9, rti.romanToIntSimple("IX"));
+        Assert.assertEquals(58, rti.romanToIntSimple("LVIII"));
+        Assert.assertEquals(1994, rti.romanToIntSimple("MCMXCIV"));
+    }
 }
