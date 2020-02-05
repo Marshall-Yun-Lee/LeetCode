@@ -1,4 +1,4 @@
-package UnitTests.Easy.LongestCommonPrefixTest;
+package UnitTests.Easy;
 
 import Solutions.Easy.LongestCommonPrefix.LongestCommonPrefix;
 import org.junit.jupiter.api.Test;

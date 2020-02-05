@@ -1,4 +1,4 @@
-package UnitTests.Easy.PalindromeNumberTest;
+package UnitTests.Easy;
 
 import Solutions.Easy.PalindromeNumber.PalindromeNumber;
 import org.junit.jupiter.api.Test;

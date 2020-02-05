@@ -1,5 +1,6 @@
 package util;
 import org.junit.jupiter.api.Assertions;
+import org.opentest4j.AssertionFailedError;
 
 public class Assert extends Assertions {
     private static Logger log = Logger.getInstance();
@@ -12,8 +13,32 @@ public class Assert extends Assertions {
         STRING
     }
 
-    private static void printComplete() {
-        log.info("<- assertion completed!");
+    private static void printComplete(Object expected, Object actual, boolean flag) {
+
+        if (flag) {
+            log.info("<- Test passed: " + actual + "\n");
+        } else {
+            log.info("<- Test expected [" + expected + "] but found [" + actual + "]\n");
+            throw new AssertionFailedError();
+        }
+    }
+
+    private static void printCompleteT(boolean flag) {
+        if (flag) {
+            log.info("<- Test passed: TRUE\n");
+        } else {
+            log.info("<- Test failed: FALSE\n");
+            throw new AssertionFailedError();
+        }
+    }
+
+    private static void printCompleteF(boolean flag) {
+        if (flag) {
+            log.info("<- Test passed: FALSE\n");
+        } else {
+            log.info("<- Test failed: TRUE\n");
+            throw new AssertionFailedError();
+        }
     }
 
     private static String start(assertType type) {
@@ -42,51 +67,83 @@ public class Assert extends Assertions {
     // ===============assertTrue=================
     public static void assertTrue(boolean condition) {
         log.info(start(assertType.TRUE));
-        Assertions.assertTrue(condition);
-        printComplete();
+        try {
+            Assertions.assertTrue(condition);
+        } catch (AssertionFailedError e) {
+            printCompleteT(false);
+        }
+        printCompleteT(true);
     }
 
     public static void assertTrue(boolean condition, String msg) {
         log.info(customStart(assertType.TRUE, msg));
-        Assertions.assertTrue(condition);
-        printComplete();
+        try {
+            Assertions.assertTrue(condition);
+        } catch (AssertionFailedError e) {
+            printCompleteT(false);
+        }
+        printCompleteT(true);
     }
 
     // ===============assertFalse=================
     public static void assertFalse(boolean condition) {
         log.info(start(assertType.FALSE));
-        Assertions.assertFalse(condition);
-        printComplete();
+        try {
+            Assertions.assertFalse(condition);
+        } catch (AssertionFailedError e) {
+            printCompleteT(false);
+        }
+        printCompleteT(true);
     }
 
     public static void assertFalse(boolean condition, String msg) {
         log.info(customStart(assertType.FALSE, msg));
-        Assertions.assertFalse(condition);
-        printComplete();
+        try {
+            Assertions.assertFalse(condition);
+        } catch (AssertionFailedError e) {
+            printCompleteT(false);
+        }
+        printCompleteT(true);
     }
 
     // ===============assertEquals=================
     public static void assertEquals(String expected, String actual) {
         log.info(start(assertType.STRING));
-        Assertions.assertEquals(expected, actual);
-        printComplete();
+        try {
+            Assertions.assertEquals(expected, actual);
+        } catch (AssertionFailedError e) {
+            printComplete(expected, actual, false);
+        }
+        printComplete(expected, actual, true);
     }
 
     public static void assertEquals(String expected, String actual, String msg) {
         log.info(customStart(assertType.STRING, msg));
-        Assertions.assertEquals(expected, actual);
-        printComplete();
+        try {
+            Assertions.assertEquals(expected, actual);
+        } catch (AssertionFailedError e) {
+            printComplete(expected, actual, false);
+        }
+        printComplete(expected, actual, true);
     }
 
     public static void assertEquals(int expected, int actual) {
         log.info(start(assertType.INT));
-        Assertions.assertEquals(expected, actual);
-        printComplete();
+        try {
+            Assertions.assertEquals(expected, actual);
+        } catch (AssertionFailedError e) {
+            printComplete(expected, actual, false);
+        }
+        printComplete(expected, actual, true);
     }
 
     public static void assertEquals(int expected, int actual, String msg) {
         log.info(customStart(assertType.INT, msg));
-        Assertions.assertEquals(expected, actual);
-        printComplete();
+        try {
+            Assertions.assertEquals(expected, actual);
+        } catch (AssertionFailedError e) {
+            printComplete(expected, actual, false);
+        }
+        printComplete(expected, actual, true);
     }
 }

@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/LongestCommonPrefix/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/LongestCommonPrefix/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Assert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/LongestCommonPrefixTest/LongestCommonPrefixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/LongestCommonPrefixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/PalindromeNumberTest/PalindromeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/PalindromeNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/ReverseIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/RomanToIntegerTest/RomanToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/RomanToIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Solutions/Easy/LongestCommonPrefix/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solutions/Easy/LongestCommonPrefix/LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Assert$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Assert$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Assert$assertType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Assert$assertType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Assert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Assert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/LongestCommonPrefixTest/LongestCommonPrefixTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/PalindromeNumberTest/PalindromeNumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/RomanToIntegerTest/RomanToIntegerTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,30 +70,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LongestCommonPrefixTest">
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solutions.Easy.ReverseInteger.ReverseInteger" />
-      <module name="marshall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Solutions.Easy.ReverseInteger.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ValidParenthesesTest">
     <configuration name="LongestCommonPrefixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marshall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTests.Easy.LongestCommonPrefixTest.*" />
+          <option name="PATTERN" value="UnitTests.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTests.Easy.LongestCommonPrefixTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.LongestCommonPrefixTest.LongestCommonPrefixTest" />
+      <option name="PACKAGE_NAME" value="UnitTests.Easy" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.LongestCommonPrefixTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -91,12 +92,12 @@
       <module name="marshall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTests.Easy.PalindromeNumberTest.*" />
+          <option name="PATTERN" value="UnitTests.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTests.Easy.PalindromeNumberTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.PalindromeNumberTest.PalindromeNumberTest" />
+      <option name="PACKAGE_NAME" value="UnitTests.Easy" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.PalindromeNumberTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -108,12 +109,12 @@
       <module name="marshall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTests.Easy.ReverseIntegerTest.*" />
+          <option name="PATTERN" value="UnitTests.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTests.Easy.ReverseIntegerTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.ReverseIntegerTest.ReverseIntegerTest" />
+      <option name="PACKAGE_NAME" value="UnitTests.Easy" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.ReverseIntegerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -125,12 +126,12 @@
       <module name="marshall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTests.Easy.RomanToIntegerTest.*" />
+          <option name="PATTERN" value="UnitTests.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTests.Easy.RomanToIntegerTest" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.RomanToIntegerTest.RomanToIntegerTest" />
+      <option name="PACKAGE_NAME" value="UnitTests.Easy" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.RomanToIntegerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -149,6 +150,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidParenthesesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marshall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTests.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTests.Easy" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.ValidParenthesesTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="marshall" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -160,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseInteger" />
       <item itemvalue="JUnit.PalindromeNumberTest" />
       <item itemvalue="JUnit.ReverseIntegerTest" />
       <item itemvalue="JUnit.RomanToIntegerTest" />
       <item itemvalue="JUnit.LongestCommonPrefixTest" />
+      <item itemvalue="JUnit.ValidParenthesesTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidParenthesesTest" />
         <item itemvalue="JUnit.LongestCommonPrefixTest" />
         <item itemvalue="JUnit.RomanToIntegerTest" />
         <item itemvalue="JUnit.PalindromeNumberTest" />
         <item itemvalue="JUnit.ReverseIntegerTest" />
-        <item itemvalue="Application.ReverseInteger" />
       </list>
     </recent_temporary>
   </component>

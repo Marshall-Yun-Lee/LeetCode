@@ -1,4 +1,4 @@
-package UnitTests.Easy.ReverseIntegerTest;
+package UnitTests.Easy;
 
 import Solutions.Easy.ReverseInteger.ReverseInteger;
 import org.junit.jupiter.api.Test;

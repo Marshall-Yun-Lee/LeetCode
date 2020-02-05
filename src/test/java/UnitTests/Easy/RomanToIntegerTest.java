@@ -1,4 +1,4 @@
-package UnitTests.Easy.RomanToIntegerTest;
+package UnitTests.Easy;
 
 import Solutions.Easy.RomanToInteger.RomanToInteger;
 import org.junit.jupiter.api.Test;
