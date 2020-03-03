@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solutions/Easy/LongestCommonPrefix/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solutions/Easy/LongestCommonPrefix/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/LongestCommonPrefixTest/LongestCommonPrefixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/LongestCommonPrefixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/PalindromeNumberTest/PalindromeNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/PalindromeNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/ReverseIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/RomanToIntegerTest/RomanToIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTests/Easy/RomanToIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solutions/Easy/LongestCommonPrefix/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solutions/Easy/LongestCommonPrefix/LongestCommonPrefix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Assert$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Assert$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Assert$assertType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Assert$assertType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Assert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Assert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/LongestCommonPrefixTest/LongestCommonPrefixTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/PalindromeNumberTest/PalindromeNumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/ReverseIntegerTest/ReverseIntegerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTests/Easy/RomanToIntegerTest/RomanToIntegerTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +39,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/android-sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../form/automation_tests" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ValidParenthesesTest">
+  <component name="RunManager" selected="JUnit.RemoveDupsInSortedListTest">
     <configuration name="LongestCommonPrefixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marshall" />
       <extension name="coverage">
@@ -88,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeTwoSortedListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marshall" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +84,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UnitTests.Easy" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.PalindromeNumberTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.MergeTwoSortedListsTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -105,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveDupsInSortedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marshall" />
       <extension name="coverage">
         <pattern>
@@ -114,7 +101,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UnitTests.Easy" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.ReverseIntegerTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.RemoveDupsInSortedListTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -132,17 +119,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="UnitTests.Easy" />
       <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.RomanToIntegerTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -178,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PalindromeNumberTest" />
-      <item itemvalue="JUnit.ReverseIntegerTest" />
       <item itemvalue="JUnit.RomanToIntegerTest" />
       <item itemvalue="JUnit.LongestCommonPrefixTest" />
       <item itemvalue="JUnit.ValidParenthesesTest" />
+      <item itemvalue="JUnit.MergeTwoSortedListsTest" />
+      <item itemvalue="JUnit.RemoveDupsInSortedListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveDupsInSortedListTest" />
+        <item itemvalue="JUnit.MergeTwoSortedListsTest" />
         <item itemvalue="JUnit.ValidParenthesesTest" />
         <item itemvalue="JUnit.LongestCommonPrefixTest" />
         <item itemvalue="JUnit.RomanToIntegerTest" />
-        <item itemvalue="JUnit.PalindromeNumberTest" />
-        <item itemvalue="JUnit.ReverseIntegerTest" />
       </list>
     </recent_temporary>
   </component>
