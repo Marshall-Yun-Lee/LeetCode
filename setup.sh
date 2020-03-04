@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # create class, description and its test with given name
-#bash setup [Easy/Hard/Medium] [className]
+# bash setup [Easy/Hard/Medium] [className]
 
 if [ -z "$1" ] || [ -z "$2" ]; then
     exit 1;
