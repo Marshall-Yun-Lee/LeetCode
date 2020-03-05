@@ -10,16 +10,18 @@ elif [ "$1" != "Easy" ] && [ "$1" != "Medium" ] && [ "$1" != "Hard" ]; then
     exit 1;
 fi
 
-# preset
-presetClass="package Solutions."$1"."$2";
+nameNoSpace="$(echo -e "$2" | tr -d '[:space:]')"
 
-public class "$2" {
+# preset
+presetClass="package Solutions."$1"."${nameNoSpace}";
+
+public class "${nameNoSpace}" {
 
 }
 "
 presetTest="package UnitTests."$1";
 
-public class "$2"Test {
+public class "${nameNoSpace}"Test {
 
 }
 "
@@ -29,18 +31,24 @@ workingDir="$(pwd)"
 classPath="src/main/java/Solutions/"$1
 testPath="src/test/java/UnitTests/"$1
 # ----------------------------------------------------------
-
 # create description and java class
 cd "${classPath}" || exit
-mkdir "$2"
-cd "$2" || exit
+mkdir "${nameNoSpace}"
+cd "${nameNoSpace}" || exit
 touch Description
 
-echo "${presetClass}" > $"$2".java
+echo "${presetClass}" > $"${nameNoSpace}".java
+
+# back to working directory
 cd || exit
 cd "${workingDir}" || exit
+
+# auto-load description from the Web
+python3 pullDescription.py -n "$2" -p "${classPath}/${nameNoSpace}/Description"
 
 # create unit test class
 cd "${testPath}" || exit
 
-echo "${presetTest}" > $"$2"Test.java
+echo "${presetTest}" > $"${nameNoSpace}"Test.java
+
+
