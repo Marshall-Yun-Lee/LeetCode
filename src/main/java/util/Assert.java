@@ -13,7 +13,7 @@ public class Assert extends Assertions {
         STRING
     }
 
-    private static void printComplete(Object expected, Object actual, boolean flag) {
+    private static void printComplete(Object actual, Object expected, boolean flag) {
 
         if (flag) {
             log.info("<- Test passed: " + actual + "\n");

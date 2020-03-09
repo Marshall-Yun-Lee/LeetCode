@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Assert.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +62,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveElementTest">
-    <configuration name="LongestCommonPrefixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ImplementstrStrTest">
+    <configuration name="ImplementstrStrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marshall" />
       <extension name="coverage">
         <pattern>
@@ -71,7 +72,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UnitTests.Easy" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.LongestCommonPrefixTest" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.ImplementstrStrTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -158,19 +159,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LongestCommonPrefixTest" />
       <item itemvalue="JUnit.ValidParenthesesTest" />
       <item itemvalue="JUnit.MergeTwoSortedListsTest" />
       <item itemvalue="JUnit.RemoveDupsInSortedListTest" />
       <item itemvalue="JUnit.RemoveElementTest" />
+      <item itemvalue="JUnit.ImplementstrStrTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ImplementstrStrTest" />
         <item itemvalue="JUnit.RemoveElementTest" />
         <item itemvalue="JUnit.RemoveDupsInSortedListTest" />
         <item itemvalue="JUnit.MergeTwoSortedListsTest" />
         <item itemvalue="JUnit.ValidParenthesesTest" />
-        <item itemvalue="JUnit.LongestCommonPrefixTest" />
       </list>
     </recent_temporary>
   </component>
