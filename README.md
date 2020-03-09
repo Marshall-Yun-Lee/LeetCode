@@ -1,2 +1,2 @@
-# LeetCode
-LeetCode + test suites
+# Practice problems
+solutions + test suites
