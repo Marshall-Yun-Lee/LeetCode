@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6890ba37-3958-4506-a3b1-f0384a5ce2ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pullDescription.py" beforeDir="false" afterPath="$PROJECT_DIR$/pullDescription.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaximumSubarrayTest">
+  <component name="RunManager" selected="JUnit.LengthofLastWordTest">
     <configuration name="ImplementstrStrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marshall" />
       <extension name="coverage">
@@ -80,6 +79,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LengthofLastWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marshall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTests.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTests.Easy" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.LengthofLastWordTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaximumSubarrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="marshall" />
       <extension name="coverage">
@@ -90,23 +106,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="UnitTests.Easy" />
       <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.MaximumSubarrayTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDupsInSortedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="marshall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnitTests.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UnitTests.Easy" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.Easy.RemoveDupsInSortedListTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
@@ -159,19 +158,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RemoveDupsInSortedListTest" />
       <item itemvalue="JUnit.RemoveElementTest" />
       <item itemvalue="JUnit.ImplementstrStrTest" />
       <item itemvalue="JUnit.SearchInsertPositionTest" />
       <item itemvalue="JUnit.MaximumSubarrayTest" />
+      <item itemvalue="JUnit.LengthofLastWordTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LengthofLastWordTest" />
         <item itemvalue="JUnit.MaximumSubarrayTest" />
         <item itemvalue="JUnit.SearchInsertPositionTest" />
         <item itemvalue="JUnit.ImplementstrStrTest" />
         <item itemvalue="JUnit.RemoveElementTest" />
-        <item itemvalue="JUnit.RemoveDupsInSortedListTest" />
       </list>
     </recent_temporary>
   </component>
