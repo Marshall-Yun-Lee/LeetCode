@@ -9,7 +9,8 @@
   "scripts": {
     "start": "./node_modules/.bin/tsc-watch --onSuccess \"node ./dist/index.js\"",
     "touch": "./node_modules/.bin/tsc-watch --onSuccess \"mocha -r ts-node/register test/**/*\"",
-    "test": "mocha -r ts-node/register test/**/*"
+    "testAll": "mocha -r ts-node/register test/**/*",
+    "test": "mocha -r ts-node/register"
   },
   "devDependencies": {
     "chai": "^4.2.0",
