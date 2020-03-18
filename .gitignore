@@ -7,6 +7,12 @@ typeScript/dist
 .vscode
 target
 
+.classpath
+.idea/workspace.xml
+.project
+.settings
+
+
 # Compiled source #
 ###################
 *.com
