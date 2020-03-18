@@ -16,5 +16,3 @@ export function sqrt(input: number): number {
     }
     return out - 1;
 }
-
-
