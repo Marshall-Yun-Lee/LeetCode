@@ -4,7 +4,7 @@ import time
 
 TCP_IP = 'localhost'
 TCP_PORT = 8080
-BUFFER_SIZE = 1024
+BUFFER_SIZE = 1024 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 try:
