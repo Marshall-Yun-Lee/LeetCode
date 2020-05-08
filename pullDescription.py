@@ -43,7 +43,7 @@ baseURL = "https://leetcode.com/problems/" + parseArgs().name.replace(" ", "-").
 print("destination:\n" + baseURL)
 
 # open the web and search description
-driver = webdriver.Chrome("/Users/marshall/Desktop/Projects/LeetCode/chromedriver")
+driver = webdriver.Chrome("/Users/marshalllee/repo/Practice/chromedriver")
 try:
     driver.get(baseURL)
     # xpath is not preferred, but it doesn't have id selector :(

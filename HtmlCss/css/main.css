@@ -1,0 +1,27 @@
+@import url("http://fonts.googleapis.com/css?family=Monteserrat:400,600");
+
+body {
+    margin: 0px;
+    font-family: "Montserrat", "Roboto", "sans-serif";
+}
+
+p,
+blockquote {
+    font-size: 0.9em;
+    line-height: 1.3em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 0.8em 1.2em;
+}
+
+.logo {
+    width: 130px;
+}
