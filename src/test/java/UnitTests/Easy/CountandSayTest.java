@@ -2,8 +2,7 @@ package UnitTests.Easy;
 
 import Solutions.Easy.CountandSay.CountandSay;
 import org.junit.jupiter.api.Test;
-import util.Assert;
-import util.Logger;
+import util.*;
 
 public class CountandSayTest {
     Logger log = Logger.getInstance();
