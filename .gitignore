@@ -7,11 +7,10 @@ typeScript/dist
 .vscode
 target
 
+**/.idea
 .classpath
-.idea/workspace.xml
 .project
 .settings
-
 
 # Compiled source #
 ###################
@@ -45,7 +44,7 @@ target
 
 # OS generated files #
 ######################
-.DS_Store*
+**/.DS_Store*
 ehthumbs.db
 Icon?
 Thumbs.db
